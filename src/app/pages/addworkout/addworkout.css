@@ -1,0 +1,118 @@
+/* Styling for the Add Workout Page */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.formpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #d3d3ff;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #d3d3ff;
+    text-align: center;
+}
+
+.form-container {
+    width: 90%;
+    max-width: 800px;
+    background-color: #1E1E1E;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-section {
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="number"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #2C2C2C;
+    border: 1px solid #d3d3ff;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+textarea {
+    resize: none;
+}
+
+input[type="file"] {
+    margin: 10px 0;
+    color: #FFFFFF;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #d3d3ff;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #b1b1e6;
+}
+
+.save-workout {
+    width: 100%;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.exercise-fields {
+    display: flex;
+    gap: 10px;
+}
+
+.exercise-item {
+    background-color: #2C2C2C;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.exercise-item h3 {
+    margin: 0;
+    color: #d3d3ff;
+}
+
+.exercise-item img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.exercise-item button {
+    background-color: #CF6679;
+}
+
+.exercise-item button:hover {
+    background-color: #B5485A;
+}
+
+.exercises-list {
+    margin-top: 20px;
+}
+
+h2 {
+    color: #d3d3ff;
+}

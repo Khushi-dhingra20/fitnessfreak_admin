@@ -1,0 +1,131 @@
+/* AuthPages.css */
+
+/* General Body Styling */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000; /* Black background */
+    color: #ffd700; /* Yellow foreground text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  /* Navbar */
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000; /* Black navbar */
+    border-bottom: 2px solid #ffd700; /* Yellow partition */
+    color: #ffd700;
+    padding: 1rem 2rem;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(255, 215, 0, 0.3); /* Yellow shadow */
+    z-index: 1000;
+  }
+  
+  .navbar a {
+    color: #ffd700; /* Yellow links */
+    text-decoration: none;
+    margin-left: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    color: #fff; /* White on hover */
+  }
+  
+  /* Form Container */
+  .formpage {
+    width: 100%;
+    max-width: 400px;
+    background: #111; /* Darker black for contrast */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(255, 215, 0, 0.4); /* Yellow shadow */
+    text-align: center;
+    color: #ffd700; /* Yellow text */
+    margin-top: 100px; /* Space below navbar */
+    border: 1px solid #ffd700; /* Yellow border */
+  }
+  
+  header h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffd700; /* Yellow header text */
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Input Fields */
+  input {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #ffd700; /* Yellow border */
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 1rem;
+    outline: none;
+    background-color: #222; /* Slightly lighter black */
+    color: #ffd700; /* Yellow text */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  input::placeholder {
+    color: #888; /* Gray placeholder text */
+  }
+  
+  input:focus {
+    border-color: #ffd700; /* Yellow border on focus */
+    box-shadow: 0 0 8px rgba(255, 215, 0, 0.5); /* Yellow glow */
+  }
+  
+  /* Buttons */
+  button {
+    width: 100%;
+    background-color: #ffd700; /* Yellow background */
+    color: #000; /* Black text */
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e6be00; /* Darker yellow on hover */
+    box-shadow: 0 4px 8px rgba(255, 215, 0, 0.4); /* Yellow shadow */
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 2rem;
+    font-size: 14px;
+    color: #ffd700; /* Yellow footer text */
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar {
+      font-size: 16px;
+    }
+  
+    .formpage {
+      padding: 1.5rem;
+    }
+  }
+  
